@@ -1,0 +1,445 @@
+  <div class="wrap">
+                                <a href="https://www.rent.ie/" target="_blank" class="card-link">
+                                    <img src="assets/img/rent.png" class="img-fluid" alt="Rent">
+                                    <h2>REN2</h2>
+                                    <p class="text-center"><i class="fas fa-home"></i></p>
+                                    <p><i class="fas fa-ellipsis-h"></i></p>
+                                </a>
+                            </div>
+
+                            <div class="wrap">
+                                <a href="https://www.myhome.ie/" target="_blank" class="card-link">
+                                    <img src="assets/img/m-home.png" class="img-fluid" alt="My Home">
+                                    <h2>MY-H</h2>
+                                    <p class="text-center"><i class="fas fa-igloo"></i></p>
+                                    <p><i class="fas fa-ellipsis-h"></i></p>
+                                </a>
+                            </div>
+                            
+                            <div class="wrap">
+                                <a href="https://www.let.ie/" target="_blank" class="card-link">
+                                    <img src="assets/img/let.png" class="img-fluid" alt="Let Ie">
+                                    <h2>LET.IE</h2>
+                                    <p class="text-center"><i class="fas fa-home"></i></p>
+                                    <p><i class="fas fa-ellipsis-h"></i></p>
+                                </a>
+                            </div>
+
+
+// $("#toggle-quick-links").click(function () {
+//     $("#bg-blur").removeClass("d-none").addClass("blur");
+
+//     $("#card-1").removeClass("d-none").addClass("q-links-wrap");
+
+// });
+
+// $("#bg-blur").click(function(){
+//     $(this).removeClass("blur").addClass("d-none");
+// });
+
+
+
+// $(".stream-nav").on("click", function() {
+//     // A selector to match all cards in all streams
+//     var allStreamsCardsSelector = ".card";
+//     // A selector to match just this stream's cards
+//     // for this, we use the class with the name of the stream,
+//     // which is the same as this nav link's id and then the "-card" suffix.
+//     var thisStreamCardsSelector = "." + this.id + "-card";
+
+//     // First remove the highlight from all of the cards
+//     $(allStreamsCardsSelector).removeClass("card-highlight");
+//     // Then apply the highlight to just this stream's cards
+//     $(thisStreamCardsSelector).addClass("card-highlight");
+// });
+
+
+$(".read-more").click(function () {
+
+    var allPageCards = ".wrap"
+    var clickedCardLink = "." + this.id + "-blur";
+
+    $("#bg-blur").removeClass("d-none").addClass("blur");
+
+    $(allPageCards).removeClass("wrap-rel");
+    // $(clickedCardLink).addClass("wrap-rel")
+
+});
+
+$("#bg-blur").toggleClass("d-none").addClass("blur");
+
+
+-------- CARDS BACKUP ----------
+
+
+
+
+
+      <div class="col-12 text-center mt-4">
+                            <div class="row justify-content-center footer-line">
+                                <div class="col-4 col-sm-3 col-md-2 l"></div>
+                                <div class="col-3 col-sm-1 g"></div>
+                                <div class="col-4 col-sm-3 col-md-2 l"></div>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center mt-4">
+                            <h1 class="sub-h1">MOBILE</h1>
+                        </div>
+                        <div class="col-12 col-sm-8 col-md-10 col-lg-8">
+                            <div class="row justify-content-center">
+                                <div class="col col-md-8 text-center intro-trip">
+                                    <div class="text-wrap">
+                                        <p class="text-center">
+                                            <strong>Here are some of the top mobile networks in Ireland!</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+       <div class="col-12 col-sm-10 col-md-8 col-lg-6 cards-wrap">
+                            <div class="wrap">
+                                <a href="https://www.three.ie/" target="_blank" class="card-link">
+                                    <img src="assets/img/three.png" class="img-fluid" alt="Three">
+                                    <h2>THREE</h2>
+                                    <p class="text-center"><i class="fas fa-mobile-alt"></i></p>
+                                    <p><i class="fas fa-ellipsis-h"></i></p>
+                                </a>
+                            </div>
+                            <div class="wrap">
+                                <a href="https://n.vodafone.ie/en.html" target="_blank" class="card-link">
+                                    <img src="assets/img/vodafone.png" class="img-fluid" alt="Vodafone">
+                                    <h2>VODAFONE</h2>
+                                    <p class="text-center"><i class="fas fa-sms"></i></p>
+                                    <p><i class="fas fa-ellipsis-h"></i></p>
+                                </a>
+                            </div>
+                            <div class="wrap">
+                                <a href="https://www.eir.ie/mobile/" target="_blank" class="card-link">
+                                    <img src="assets/img/eir.png" class="img-fluid" alt="Eir">
+                                    <h2>EIR</h2>
+                                    <p class="text-center"><i class="fas fa-mobile-alt"></i></p>
+                                    <p><i class="fas fa-ellipsis-h"></i></p>
+                                </a>
+                            </div>
+                        </div>
+
+  <div class="col-12 text-center mt-4">
+                            <div class="row justify-content-center footer-line">
+                                <div class="col-4 col-sm-3 col-md-2 l"></div>
+                                <div class="col-3 col-sm-1 g"></div>
+                                <div class="col-4 col-sm-3 col-md-2 l"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 text-center mt-4">
+                            <h1 class="sub-h1">FOOD</h1>
+                        </div>
+
+                        <div class="col-12 col-sm-8 col-md-10 col-lg-8">
+                            <div class="row justify-content-center">
+                                <div class="col col-md-8 text-center intro-trip">
+                                    <div class="text-wrap">
+                                        <p class="text-center">
+                                            <strong>Food Glorious Food</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+ <div class="col-12 col-sm-10 col-md-8 col-lg-6 cards-wrap">
+                            <div class="wrap">
+                                <a href="https://www.aldi.ie/" target="_blank" class="card-link">
+                                    <img src="assets/img/aldi.png" class="img-fluid" alt="Aldi">
+                                    <h2>ALDI</h2>
+                                    <p class="text-center"><i class="fas fa-carrot"></i></p>
+                                    <p><i class="fas fa-ellipsis-h"></i></p>
+                                </a>
+                            </div>
+                            <div class="wrap">
+                                <a href="https://www.lidl.ie/" target="_blank" class="card-link">
+                                    <img src="assets/img/lidl.png" class="img-fluid" alt="Lidl">
+                                    <h2>LIDL</h2>
+                                    <p class="text-center"><i class="fas fa-cloud-meatball"></i></p>
+                                    <p><i class="fas fa-ellipsis-h"></i></p>
+                                </a>
+                            </div>
+                            <div class="wrap">
+                                <a href="https://www.tesco.ie/" target="_blank" class="card-link">
+                                    <img src="assets/img/tesco.png" class="img-fluid" alt="Tesco">
+                                    <h2>TESCO</h2>
+                                    <p class="text-center"><i class="fas fa-egg"></i></p>
+                                    <p><i class="fas fa-ellipsis-h"></i></p>
+                                </a>
+                            </div>
+                        </div>
+__________________________________
+
+ /*Test Card Section*/
+                .card-link-fav {
+                    display: block;
+                    width: 100%;
+                    background-image: url(../img/rent_fav.png);
+                    background-repeat: no-repeat;
+                    background-position: left center; 
+                    text-indent: 20%;
+                }
+
+                .q-links-wrap {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    column-gap: .5rem;
+                    padding: .5rem;
+                    
+                   
+                        .q-links {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            text-decoration: none;
+                            text-align: center;
+                            padding: .5rem;
+                            
+                            text-decoration: none;
+                            color: black
+                        }
+                    a{ margin-bottom: .5rem;}      
+                }
+            /*Test Card Section*/
+___________________________________
+
+
+
+
+
+
+
+ <!--TEST CARD-->
+                        <div class="col-12 col-sm-11 col-md-8 col-lg-6 bg-success">
+                            <div class="row justify-content-center">
+
+                                    <div class="col-8 col-sm-3 wrap card1-blur">
+                                        <a class="card-link-fav" href="https://www.rent.ie/" target="_blank">Rent.ie</a>
+                                        
+                                        <div class="card-img">
+                                            <img src="assets/img/rent.png" class="img-fluid" alt="Rent">
+                                        </div>
+        
+                                        <p class="card-text bg-danger">
+                                            Rent.ie was launched in November 2008. 
+                                            Our aim is to provide the fastest, easiest-to-use 
+                                            and most up-to-date rental website in the marketplace. 
+                                        </p>
+        
+                                        <div id="card1" class="read-more bg-success">Quick Links...<i class="fas fa-play"></i></div>
+        
+                                        <div id="slide1" class="d-none card1-slide">
+                                            <a href="#" class="q-links a">Flat Mates</a>
+                                            <a href="#" class="q-links a">Flat Mates</a>
+                                            <a href="#" class="q-links">Flat Mates</a>
+                                            <a href="#" class="q-links">Flat Mates</a>
+                                        </div> 
+                                        
+                                        <!-- <a href="#"> <i class="far fa-times-circle"></i></a> -->
+                                    </div>
+
+                                    
+                                    <div class="col-8 mr-5 ml-5 col-sm-3 wrap card2-blur">
+                                        <a class="card-link-fav" href="https://www.rent.ie/" target="_blank">Rent.ie</a>
+                                        
+                                        <div class="card-img">
+                                            <img src="assets/img/rent.png" class="img-fluid" alt="Rent">
+                                        </div>
+        
+                                        <p class="card-text bg-danger">Rent.ie was launched in November 2008. 
+                                            Our aim is to provide the fastest, easiest-to-use and most up-to-date rental website in the marketplace. 
+                                        </p>
+        
+                                        <div id="card2" class="read-more bg-success">Quick Links...<i class="fas fa-play"></i></div>
+
+                                        <div id="slide2" class="d-none card2-slide">
+                                            <a href="#" class="q-links">Flat Mates</a>
+                                            <a href="#" class="q-links">Flat Mates</a>
+                                            <a href="#" class="q-links">Flat Mates</a>
+                                            <a href="#" class="q-links">Flat Mates</a>
+                                        </div> 
+                                    </div>
+                                   
+                                    
+                                    <div class="col-8 col-sm-3 wrap card3-blur">
+                                        <a class="card-link-fav" href="https://www.rent.ie/" target="_blank">Rent.ie</a>
+                                        
+                                        <div class="card-img">
+                                            <img src="assets/img/rent.png" class="img-fluid" alt="Rent">
+                                        </div>
+        
+                                        <p class="card-text bg-danger">Rent.ie was launched in November 2008. 
+                                            Our aim is to provide the fastest, easiest-to-use and most up-to-date rental website in the marketplace. 
+                                        </p>
+        
+                                        <div id="card3" class="read-more bg-success">Quick Links...<i class="fas fa-play"></i></div>
+        
+                                        <div id="slide3" class="d-none card3-slide">
+                                            <a href="#" class="q-links">Flat Mates</a>
+                                            <a href="#" class="q-links">Flat Mates</a>
+                                            <a href="#" class="q-links">Flat Mates</a>
+                                            <a href="#" class="q-links">Flat Mates</a>
+                                        </div> 
+                                    </div>
+
+
+                                
+                            </div> 
+                        </div>
+________________
+BACKUP 28/11/2020
+
+ .cards-wrap {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1.5rem;
+
+
+___________________
+
+    $(".read-more").click(function () {
+        
+        var allPageCards = ".wrap";
+        var clickedCardLink = "." + this.id + "-blur";
+        var slideCard = "." + this.id + "-slide";
+        var bgBlur = "#bg-blur";
+        $(allPageCards).removeClass("wrap-rel");
+
+        $(clickedCardLink).addClass("wrap-rel");        
+        $(slideCard).removeClass("d-none");
+        $(bgBlur).removeClass("d-none").addClass("blur");
+      
+    });
+
+    $("#bg-blur").click(function () {
+        $(this).removeClass("blur").addClass("d-none");
+
+    });
+
+____________________________________________
+
+
+
+
+
+<div class="col-12 col-lg-10 bg-info">
+                            <div class="row justify-content-center">
+                                <div class="col col-md-8 text-center  intro-trip">
+                                    <div class="text-wrap">
+                                        <p class="text-center">
+                                            <strong>Beauty, culture, great craic, and plenty to do!</strong>
+                                        </p>
+                                        <p>
+                                            There’s always craic to be had, and you’re never more than a stone’s throw away from nature.
+                                        </p>
+                                        <p>
+                                            <strong>But first, let's cover the essentials!</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+<div class="col-12 text-center">
+           <h1 class="sub-h1">ACCOMMODATION</h1>
+            </div>
+
+
+_______________
+
+  <div class="col-10 col-md-6 col-lg-4">
+                        <input type="email" id="newsletter" placeholder="Your email address *" required>
+                    </div>
+                    <div class="col-12 text-center">
+                        <button type="submit" class="news-btn">SUBSCRIBE</button>
+                    </div>
+
+
+------------------------
+
+   .card-link-fav {
+                display: block;
+                width: 100%;
+                padding: .5rem 0;
+                background-repeat: no-repeat;
+                background-position: left center;
+                background-size: 2rem 2rem;
+                text-indent: 3rem;
+                font-size: 1.3rem;
+                text-decoration: none;
+                color: $green-color;
+                transition: all .3s ease;
+                &:hover {color: rgba(0,0,0, 0.6);}
+                @include response(sm) {
+                    background-size: 2.5rem 2.5rem;
+                    font-size: 2rem;
+                }
+            }
+___________________
+
+
+
+<div class="row justify-content-center">
+
+                                    <div class="col-12 col-sm-4 col-lg-3 text-center sec-wrap mr-2">
+                                        <div class="ic-wrap">
+                                            <i class="fas fa-plane-departure"></i>
+                                        </div>
+                                        <h2 class="text-left">Trip</h2>
+                                        <p>A handy section where you have the most popular web services regarding 
+                                        booking a plane ticket and some tips and tricks when flying to Dublin, Ireland!
+                                        </p>
+                                    </div>
+
+                                    <div class="col-12 col-sm-4 col-lg-3 text-center sec-wrap mr-2">
+                                        <div class="ic-wrap">
+                                            <i class="fas fa-user-tie"></i>
+                                        </div>
+                                        <h2 class="text-left">Work</h2>
+                                        <p>It is all about you and how you sell yourself, 
+                                            plus how to find cool and possible free online courses, 
+                                            for personal growth and development!
+                                        </p>
+                                    </div>
+
+                                    <div class="col-12 col-sm-4 col-lg-3  text-center sec-wrap">
+                                        <div class="ic-wrap">
+                                            <i class="fas fa-hand-spock"></i>
+                                        </div>
+                                        <h2 class="text-left">Life</h2>
+                                        <p>Well, now we are living in a <strong>"strange"</strong> time regarding social gatherings. 
+                                            As soon this is over you can hit all "hot" spots around Ireland and Dublin!
+                                        </p>
+                                    </div>
+
+                                    <div class="col-12 col-sm-4 col-lg-3  text-center sec-wrap">
+                                        <div class="ic-wrap">
+                                            <i class="fas fa-info-circle"></i>
+                                        </div>
+                                        <h2 class="text-left">News</h2>
+                                        <p>Received our news and updates on a regular basis regarding jobs, 
+                                            business events, lifestyle, etc. 
+                                            Maybe you have an idea for the site section...we are listening!
+                                        </p>
+                                    </div>
+                                </div>
+
+_____________
+
+
+WORK
+
+Finding work in Ireland can be difficult but with the correct preparation, advice, and planning this task can be made a lot easier.
+
+As with most countries, most jobs can be found in major cities so if you are living in Dublin, Galway or Cork there is more chance of finding a job in Ireland.

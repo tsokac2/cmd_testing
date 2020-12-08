@@ -1,0 +1,158 @@
+.info {
+    font-family: $lato;
+    margin-top: .5rem;
+    @include response(md) {margin-top: 2rem;}
+    
+    .link-wrap {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+
+        .flex-link {
+            display: block;
+            background-color: rgb(15, 99, 103);
+            color: white;
+            font-weight: 700;   
+            text-align: center;
+            width: 4.5rem;
+            padding: .5rem 0;
+
+            @include response(sm) {
+                width: 6.5rem;
+                padding: 1rem 0;
+                font-size: 1.5rem;
+            }
+
+            @include response(md) {
+                width: 10rem;
+                font-size: 2rem;
+            }
+
+            &:hover {
+                background-color:  rgba(84, 85, 136, .6);
+                transition: .5s ease;
+            }  
+           
+        }
+            .r {margin-right: 1rem;   
+                @include response(md) {margin-right: 2rem; }
+            }
+
+            .l {margin-left: 1rem;
+                @include response(md) {margin-left: 2rem;}
+            }
+    }
+
+}
+.news {
+    font-family: $lato;
+    margin-top: 1rem;
+    padding: .5rem;
+    background-color: rgb(255, 255, 255);
+    h2 {
+        font-size: 1.1rem;
+        color: $dark-grey;
+        font-weight: 700;
+        margin: 0;
+        @include response(sm) {font-size: 2rem;}
+    }
+
+    form {
+        font-family: $lato;
+        margin-top: 1.5rem;
+        .mt-input {margin-top: 2rem;}
+        input {
+            border: none;
+            border-bottom: 1px solid rgb(43, 43, 68);
+            background:none;
+            color: $dark-grey;
+            padding: 0 0 .3rem 0;
+            color: rgb(0, 0, 0);
+            font-weight: 700;
+            font-size: 1.5rem;
+            width: 100%;
+            text-align: left;
+            @include response(sm) {font-size: 1.8rem;}
+            @include response(md) {font-size: 2.1rem;}
+        }
+        .news-btn {
+            padding:0.5rem 1rem;
+            margin-top: 1.5rem;
+            background-color: rgb(15, 99, 103);
+            color:#fff;
+            letter-spacing: 1px;
+            font-weight: 700;
+            font-size:1rem;
+            border: 1px solid $green-color;
+            text-align:center;
+            cursor:pointer;
+            transition:.5s ease;
+
+            @include response(sm) {
+                padding: 1.2rem 3rem;
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+                }
+
+            &:hover {
+                background-color:$dark-grey;
+                color:#fff;
+            }
+        }
+    }
+}
+ .social {
+    font-family: $lato;
+    margin-top: 1.5rem;
+    &-wrap {
+      text-align: center;
+      margin: 0 1rem;
+      border-radius: 50%;
+      border: 1px solid $green-color;
+      background-color: rgba(8, 95, 99, 0.1);
+    
+      @include response(md) {margin-top: 2rem;}
+    
+      .social-link {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 3rem;
+        height: 3rem;
+        font-size: 2rem;
+        color: $link-color;
+
+        &:hover {       
+            color: rgba(5, 65, 68, .8);
+            transition: width .3s ease, color .3s ease;
+            }
+      }
+    }
+  } 
+
+.copy-ts {
+    font-family: $lato;
+    font-size:1rem;
+    background-color: rgba(134, 193, 191, .2);
+    @include response(sm) {font-size: 1.5rem;}
+    @include response(md) {font-size: 2rem; padding: 1rem 0;}
+     p {
+        color: $dark-grey;
+        padding: 0;
+        margin: 0;
+        a {
+            text-decoration: none;
+            color: $link-color;
+            font-size: 1.1rem;
+            @include response(sm) {font-size: 1.5rem;}
+            @include response(md) {font-size: 2rem;}
+            &:hover {
+                color: rgb(82, 82, 126);
+                transition: width .3s ease, color .3s ease;
+            }
+        }
+    }
+}
